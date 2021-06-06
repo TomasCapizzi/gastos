@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #778472;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: #80AB82;
+    font-size: 32px;
+}
+
+.sub {
+    font-size: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.inputs input {
+    margin: 1rem 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid #BAC7BE;
+    border-radius: 5px;
+}
+
+.inputs button {
+    font-size: 20px;
+    color: #80AB82;
+}
+
+.motivo {
+    width: 100%;
+}
+
+.fecha {
+    align-items: center;
+    width: 30%;
+}
+
+.dinero {
+    width: 45%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cont-tabla {
+    width: 700px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid rgb(246, 246, 246);
+    padding: 0.5rem;
+}
+
+.tabla-header {
+    color: #80AB82;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tabla-body {
+    margin: 1rem;
+    background-color: #fbfbfb;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.tabla-body button {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #c85633;
+}
+
+input:hover {
+    background-color: #fafafa;
+}
+
+.oculto {
+    display: none;
+}
+
+.cont-resultado {
+    background-color: #fafafa;
+    margin-top: 80px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.error {
+    color: #c85633;
+}
